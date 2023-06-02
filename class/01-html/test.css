@@ -1,0 +1,9 @@
+/* 자손 선택자 */
+.parent .child {
+  property: value;
+}
+
+/* 다중 선택자 */
+.class#id {
+  property: value;
+}
