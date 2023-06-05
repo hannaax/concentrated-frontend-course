@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
+* {
+  font-family: "Jua", sans-serif;
+}
+
+.title {
+  color: red;
+}
+
+.box1 .title {
+  color: aquamarine;
+}
+
+.contents {
+}

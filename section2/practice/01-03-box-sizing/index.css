@@ -1,0 +1,46 @@
+.block {
+  border: 3px solid blue;
+}
+
+.inline-container {
+  border: 3px solid red;
+}
+
+.block div {
+  border: 3px solid yellowgreen;
+  width: 400px;
+  display: inline;
+}
+
+.inline-container span {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 400px;
+  display: block;
+  border: 1px solid black;
+  opacity: 0.5;
+}
+
+/* 선택자:가상 클래스 {
+    property : value;
+}
+
+.box1 p:first-child {
+    background-color: red;
+}
+
+.box1 p:last-child {
+    background: blue;
+}
+
+.class:nth-child(3) {
+
+}
+
+.box1 p:nth-child(3) {
+    background: green;
+}
+
+.box1 p:nth-child(2n) {
+    background: yellow;
+}
+ */

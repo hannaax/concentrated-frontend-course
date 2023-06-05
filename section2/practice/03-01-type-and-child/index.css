@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+.container p:first-child {
+  background: red;
+}
+
+.container p:first-of-type {
+  background: blue;
+}
+
+.container p:last-of-type {
+  background: yellow;
+}
+
+.container p:nth-of-type(2) {
+  background-color: green;
+}
+
+.container span:first-of-type {
+  font-weight: 700;
+}
+
+
+1. 요소의 속성을 grid로 변경
+display: grid;
+
+해당요소는 grid-container, 자식요소는 grid-item
+grid-line, grid-number
+
+grid-template-rows
+grid-template-rows: 1fr 2fr 200px;
+grid-template-columns: 1fr 2fr 200px;
+
+fr;
+fraction분수의 약자,
+grid-template에서 사용할 수 있는 비율 단위
+
+grid-template-columns: 1fr 2fr 1fr 1fr
+=> 1:2:1:1
+
+repeat(a,b)
+grid-template에서 사용할 수 있는 반복 함수
+b규격의 grid-template을 a개 생성
+grid-template-columns: repeat(4, 1fr)
+
+grid-template-columns: repeat(4, 1fr)
+=
+grid-template-columns: 1fr 1fr 1fr 1fr
+
+grid-template-rows: 3fr repeat(2, 1fr 200px)
+=
+grid-template-rows: 3fr 1fr 200px 1fr 200px
+
